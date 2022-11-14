@@ -21,9 +21,9 @@ public class exam10_7 extends JFrame {
         public void keyPressed(KeyEvent e) {
             la.setText(e.getKeyText(e.getKeyCode()));
             if(e.getKeyChar() == '%')
-                getLayeredPane().setBackground(Color.YELLOW);
+                getContentPane().setBackground(Color.YELLOW);
             else if(e.getKeyCode() == KeyEvent.VK_F1)
-                getLayeredPane().setBackground(Color.GREEN);
+                getContentPane().setBackground(Color.GREEN);
         }
     }
     public static void main(String [] args) {
